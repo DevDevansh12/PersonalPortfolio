@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  height: max-content;
+  padding-top: 12px;
+  background-color: transparent;
+}
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_Links li {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 35px;
+}
+.nav_Links li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.nav_Links li a:hover {
+  color: #29a587;
+}
